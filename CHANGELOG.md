@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/WittF/docker-multi-java/compare/v1.2.1...v1.3.0) (2026-03-30)
+
+
+### 🚀 新功能
+
+* 添加 Azul Zulu JDK 25 支持 ([1fa339f](https://github.com/WittF/docker-multi-java/commit/1fa339f08aa15b29b53bdf87817d8a5c8e4b6498))
+
 ## [1.2.1](https://github.com/WittF/docker-multi-java/compare/v1.2.0...v1.2.1) (2025-08-30)
 
 
