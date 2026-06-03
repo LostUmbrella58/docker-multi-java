@@ -17,9 +17,5 @@ Java 8, 11, 17, 21, 24, 25 (Azul Zulu JDK)，默认Java 17
 **镜像发布地址:**
 - GitHub Container Registry:
 ```
-docker pull ghcr.io/wittf/multi-java:latest
-```
-- Docker Hub:
-```
-docker pull wittf/multi-java:latest
+docker pull ghcr.io/lostumbrella58/multi-java:latest
 ```

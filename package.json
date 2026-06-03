@@ -4,7 +4,7 @@
   "description": "多版本Java Docker镜像，支持Java 8/11/17/21/24/25",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WittF/docker-multi-java.git"
+    "url": "https://github.com/LostUmbrella58/docker-multi-java.git"
   },
   "keywords": [
     "java",
@@ -13,7 +13,7 @@
     "multi-version",
     "azul-zulu"
   ],
-  "author": "wittf",
+  "author": "LostUmbrella58",
   "license": "MIT",
   "private": false,
   "scripts": {
