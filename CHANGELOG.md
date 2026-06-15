@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/LostUmbrella58/docker-multi-java/compare/v1.0.0...v1.0.1) (2026-06-15)
+
+
+### 🐛 修复
+
+* install libssl3 and ca-certificates for native TLS ([f8c75c7](https://github.com/LostUmbrella58/docker-multi-java/commit/f8c75c75a2f7bece384a6847f06303ab4de036bb))
+
 ## 1.0.0 (2026-06-15)
 
 
