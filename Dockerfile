@@ -11,6 +11,13 @@ FROM debian:12-slim
 
 ENV DEBIAN_FRONTEND=noninteractive
 
+# 安装运行时依赖：OpenSSL（让 netty-tcnative 走原生加密，绕过 JDK 25 C2 编译器在 sun.security.ec 上的崩溃）
+# + ca-certificates（HTTPS 校验，LuckPerms/Mojang 认证需要）
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        libssl3 \
+        ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
 # 设置时区
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
